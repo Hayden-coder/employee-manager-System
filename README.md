@@ -5,7 +5,7 @@ The purpose of this application is to allow users to dynamically update, and man
 
 # Install
 
-git clone https://github.com/amandalatkins/employee-manager.git
-cd employee-manager
+git clone repo 
+cd employee-manager-system
 npm i
 
