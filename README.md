@@ -9,6 +9,27 @@ git clone repo
 cd employee-manager-system
 npm i
 
+Create a new file called .env that will store your MySQL server information:
+
+touch .env
+Format the contents of .env as follows, substituting your MySQL server information where applicable:
+
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=username
+DB_PASS=password
+
+Import the database schema and optional demo data:
+
+#login to mysql
+mysql -u username -p
+
+#import the required schema
+source schema.sql
+
+#import the optional demo data
+source seeds.sql
+
 # start 
 
 node index.js
