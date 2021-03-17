@@ -10,3 +10,5 @@ cd employee-manager-system
 npm i
 
 # demonstration
+
+![preview](https://user-images.githubusercontent.com/74078719/111413844-3d83cc80-869c-11eb-9577-59f19045178b.gif)
