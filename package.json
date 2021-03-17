@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A CLI application for managing employees.",
+  "main": "index.js",
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hayden-coder/employee-manager-System"
+  },
+  "author": "Hayden Vennes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hayden-coder/employee-manager-System/issues"
+  },
+  "homepage": "https://github.com/Hayden-coder/employee-manager-System/blob/main/README.md",
+  "dependencies": {
+    "ascii-art-font": "^1.0.2",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^0.2.3",
+    "mysql": "^2.18.1"
+  }
+}
